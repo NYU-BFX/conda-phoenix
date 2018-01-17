@@ -10,7 +10,6 @@ ENV_NAME:=xmltodict
 
 # no default action to take
 none:
-	echo "$(INSTALL_DIR)"
 
 
 # ~~~~~ INSTALLATION ~~~~~ #
@@ -33,7 +32,6 @@ install: verify
 
 # ~~~~~ SETUP ~~~~~ #
 # create the Conda environment
-# https://conda.io/docs/user-guide/tasks/manage-environments.html
 setup: 
 	. activate_anaconda.sh && \
 	conda env create -f $(ENV_YAML)
