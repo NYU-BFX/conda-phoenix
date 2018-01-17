@@ -18,7 +18,7 @@ Install Anaconda to the current directory
 make install
 ```
 
-# Activate
+# Activate - Makefile
 
 The Makefile can run the steps needed to setup a new Anaconda environment by running the command:
 
@@ -32,10 +32,24 @@ Afterwards, you can check that it worked by running the command:
 make test
 ```
 
-Activate the Anaconda installation
+# Activate - Script
+
+The same steps can be accomplished with the included shell scripts. After running `make install` to install Anaconda, you can setup the example `xmltodict` Conda environment with:
 
 ```bash
-. activate_anaconda.sh
+./setup_xmltodict.sh
+```
+
+and then activate the new environment with:
+
+```bash
+source activate_xmltodict.sh
+```
+
+Deactivate the Conda environment with:
+
+```bash
+source deactivate
 ```
 
 # Setup Environment
