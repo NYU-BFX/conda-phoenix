@@ -1,0 +1,6 @@
+name: xmltodict
+channels:
+  - conda-forge
+dependencies:
+  - xmltodict
+
