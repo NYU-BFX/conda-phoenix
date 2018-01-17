@@ -57,3 +57,5 @@ source deactivate
 # Resources
 
 [Anaconda](https://docs.anaconda.com/anaconda/install/linux)
+
+[Conda Environments](https://conda.io/docs/user-guide/tasks/manage-environments.html)
